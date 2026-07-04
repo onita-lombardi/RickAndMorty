@@ -18,3 +18,85 @@ header a{
     font-family: var(--font-family);
     text-decoration: none;
 }
+
+/* --- MAIN --- */
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 191px;
+    background-color: var(--color-black);
+    padding: 100px 0px 76px 0px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.main-content h1{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    color: var(--color-white);
+    font-family: var(--font-family);
+    width: 587px;
+}
+
+.main-content h1 span{
+    color: var(--color-blue);
+}
+
+.main-content p{
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--color-white);
+    font-family: var(--font-family);
+    width: 564px;
+}
+
+.main-content nav{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary{
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-btn);
+    text-align: center;
+    font-family: var(--font-family);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-primary:hover{
+    background-color: #218898;
+    /* background-color: #2791a2; */
+
+}
+
+.btn-secundary{
+    display: flex;
+    padding: 15px 20px;
+    border: 1px solid var(--color-blue);
+    border-radius: 10px;
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-btn);
+    font-family: var(--font-family);
+    align-items: center;
+    color: var(--color-blue);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-secundary:hover{
+    background-color: #11b0c889;
+    color: var(--color-white);
+}
