@@ -272,6 +272,11 @@ footer p span{
 }
 
 @media (max-width: 884px) {
+
+    header nav a{
+        font-size: var(--font-size-btn);
+    }
+
     main{
         display: flex;
         flex-direction: column;
@@ -285,6 +290,18 @@ footer p span{
         text-align: center;
     }
 
+    .main-content h1{
+        font-size: var(--font-size-h1);
+    }
+
+    .main-content p{
+        font-size: var(--font-size-body);
+    }
+
+    .btn-primary, .btn-secundary{
+        font-size: var(--font-size-btn);
+    }
+
     .mainImg img{
         width: 300px;
     }
@@ -296,6 +313,22 @@ footer p span{
 
     .card-character{
         width: 280px;
+    }
+
+    .section-characters h2{
+        font-size: var(--font-size-h2);
+    }
+
+    .card-character h3{
+        font-size: var(--font-size-h3);
+    }
+
+    .info-character span{
+        font-size: var(--font-size-body);
+    }
+
+    footer p{
+        font-size: var(--font-size-h3);
     }
 
 }
