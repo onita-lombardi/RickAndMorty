@@ -176,7 +176,7 @@ main {
     gap: 10px;
 }
 
-.info-character p{
+.info-character span{
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
     color: var(--color-white);
